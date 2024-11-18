@@ -22,7 +22,7 @@ function cosineLaw() {
     <input v-model="aValue" type="number" placeholder="Side A" />
     <input v-model="bValue" type="number" placeholder="Side B" />
     <input v-model="degree" type="number" placeholder="Angle (°)" />
-    <input :value="result" readonly data-placeholder="Search"/>
+    <input :value="result" readonly placeholder="Result"/>
     <button @click="cosineLaw">Calculate</button>
   </div>
 </template>
